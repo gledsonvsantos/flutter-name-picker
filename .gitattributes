@@ -1,0 +1,25 @@
+# Define default behavior for line endings.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.c text
+*.cpp text
+*.cs text
+*.h text
+*.java text
+*.js text
+*.json text
+*.md text
+*.py text
+*.sh text
+*.swift text
+*.txt text
+*.yaml text
+*.yml text
+
+# Declare files that will always have CRLF line endings on checkout.
+*.bat text eol=crlf
+
+# Declare files that will always have LF line endings on checkout.
+*.sh text eol=lf
